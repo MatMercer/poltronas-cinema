@@ -69,7 +69,7 @@ function CinemaRoom(chairMap, container, counterElement) {
         chair.classList.add("avaible");
 
         chairImg = document.createElement("img");
-        chairImg.src = "/vendor/icons/armchair.svg";
+        chairImg.src = "/poltronas-cinema/vendor/icons/armchair.svg";
 
         chair.chairId = id;
         chair.chair = chairObject;

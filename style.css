@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+    width: 1356px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+span.chair {
+    position: relative;
+}
+
+span.chair > img {
+    width: 42px;
+    height: 42px;
+    transition: 250ms;
+}
+
+span.chair.avaible > img {
+    background-color: #92ff86;
+    outline: solid 1px #17a81e;
+}
+
+span.chair.occuped > img {
+    background-color: #ff475d;
+    outline: solid 1px #a81e16;
+}
+
+span.chair.avaible > img:hover {
+    background-color: #5fc3ff;
+    cursor: pointer;
+    outline: solid 1px #0032ff;
+}
+
+span.chair.occuped > img:hover {
+    background-color: #ff933c;
+    cursor: pointer;
+    outline: solid 1px #ff3700;
+}
+
+span.chair.empty {
+    margin-right: 42px;
+    transition: 100ms;
+}
